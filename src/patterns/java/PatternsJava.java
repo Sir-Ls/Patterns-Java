@@ -7,7 +7,7 @@ package patterns.java;
 
 /**
  *
- * @author GOD
+ * @author Andrew Searles
  */
 public class PatternsJava {
 
