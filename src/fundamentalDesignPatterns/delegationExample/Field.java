@@ -12,10 +12,10 @@ import java.util.ArrayList;
  * @author GOD
  */
 public class Field {
-    private ArrayList crops;
+    private ArrayList<Crop> crops;
     
     public Field() {
-        this.crops = new ArrayList();
+        this.crops = new ArrayList<Crop>();
     }
     
     public void plantCrop(Crop crop){
@@ -26,7 +26,7 @@ public class Field {
             System.out.println(crops);
     }
     
-    public ArrayList getCrops(){
+    public ArrayList<Crop> getCrops(){
         return crops;
     }
     

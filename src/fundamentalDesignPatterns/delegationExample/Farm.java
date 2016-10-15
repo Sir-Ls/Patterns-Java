@@ -25,5 +25,6 @@ public class Farm {
         // TODO code application logic here
         Farm farm = new Farm();
         farm.plantCrop(farm.field, farm.potato);
+        System.out.println(farm);
     }
 }
